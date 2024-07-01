@@ -152,7 +152,7 @@ Here, `x` denotes a word character, and `X` denotes a digit.
 # Which is followed by 4 word characters.
 # Then there is a period, which is escaped with a backslash.
 # Then the regex matches the line end.
-Regex_Pattern = r"^\d\w{4}\.$"
+Regex_Pattern = r"^\d\w{4}[\.|,]$"
 ~~~
 
 ## Character Class
